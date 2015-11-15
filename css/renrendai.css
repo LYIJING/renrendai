@@ -1,0 +1,463 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+padding: 0;
+margin: 0;
+}
+table {
+border-collapse: collapse; 
+border-spacing: 0;
+}
+fieldset,img {
+border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-weight: normal;
+font-style: normal;
+}
+ol,ul {
+list-style: none;
+}
+caption,th {
+text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+}
+q:before,q:after {
+content:”;
+}
+abbr,acronym { border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+#wrap {
+	margin: 0 auto;
+	background: white;
+	font-family: "微软雅黑", "YaHei", tahoma, arial, "Hiragino Sans GB", serif;
+}
+
+.container{             
+	width: 960px;      
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.nar-top{
+	background: #555;
+}
+
+.nar-top ul{
+	text-align: right;
+	padding: 6px 0;
+}
+
+.nar-top ul li{
+	display: inline;
+	padding: 10px;
+}
+
+.nar-top ul li a{
+	color: #ccc;
+	font-size: 15px;
+}
+
+.nar-top ul li:first-child>a{
+	color: #29aadf;
+}
+
+.nar-top ul li:first-child+li>a{
+	color: #92c12f;
+}
+
+.nar-top ul li a:hover{
+	color: white;
+}
+
+.nar-top ul li:first-child+li>a:hover{
+	color: white;
+}
+
+.header div+div{
+	margin-top: 13px;
+}
+
+.nar div{
+	float: left;
+}
+
+.header div+div div ul li {
+	display: inline;
+	padding: 0 20px;
+}
+
+.header div+div ul li a{
+	color: #555;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+.header div+div a:hover{
+	color: #2ea7e0;
+}
+
+.logo{
+	background-image: url(../images/logo.png);
+	width: 140px;
+	height: 72px;
+	background-repeat: no-repeat;
+
+}
+
+.slogan{
+	background-image: url(../images/slogan.png);
+	width: 193px;
+	height: 25px;
+	background-repeat: no-repeat;
+	margin: 13px 24px;
+}
+
+.inform{
+	background: rgb(255,251,226);
+	color: #f58708;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+	margin-top: 0px !important;
+}
+
+.sjdl{
+	background: url(../images/lc-banner.jpg) no-repeat center center;
+	width: 100%;
+    height: 745px;
+    position: relative;
+}
+
+.sjdl>div{
+	background: url(../images/dlbg.png) no-repeat;
+	position: absolute;
+	left: 660px;
+    top: 440px;
+    width: 294px;
+    height: 70px;
+}
+
+.sjdl>div>a{
+	color: white;
+	text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    display: block;
+}
+
+.sj-con{
+	background: url(../images/rrd-update.png) no-repeat;
+	height: 268px;
+	margin: 40px auto;
+
+}
+
+.sj-con dl{
+	padding-left: 300px;
+}
+
+.sj-con dl dt{
+	font-size: 42px;
+    color: #1c9fdf;
+    margin-bottom: 32px;
+}
+
+.sj-con dl dd{
+	font-size: 16px;
+	color: #666;
+    line-height: 36px;
+}
+
+.sj-con dl dd a{
+	color: #2ea7e0;
+}
+
+.ntk{
+	font-size: 16px;
+	color: #666;
+	background: #eef8fd;
+	
+}
+
+.ntk h2{
+	font-size: 28px;
+	padding: 30px;
+	color: #1c9fdf;
+	text-align: center;
+}
+
+.ntk ul li{
+	padding: 25px;
+}
+
+.footer{
+	background: #555;
+	color: #808080;
+}
+
+.footer .one{
+	border-bottom: 1px solid #808080;
+}
+
+.footer .one h4{
+	width: 85px;
+	font-size: 15px;
+	padding: 19px;
+	float: left;
+}
+
+.footer .one ul li {
+    float: left;
+    padding: 20px 20px 10px 0;
+}
+
+.footer .one ul li a{
+	font-size: 15px;
+	color: #808080;
+}
+
+.footer .one ul li a:hover{
+	font-size: 15px;
+	color: #08c;
+}
+
+
+.ad{
+	color: #808080;
+	font-size: 13px;
+	padding: 10px;
+	text-align: center;
+}
+
+address div{
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 12%;
+}
+
+.ad span{
+	text-align: center;
+	padding-right: 5px;
+	border-right: 1px solid #808080;
+	padding-right: 10px;
+}
+
+.footer .bottom .pho a {
+    display: block;
+    height: 32px;
+    width: 91px;
+    background: url(../images/footer-icons.png) white no-repeat 0px -163px;
+    float: left;
+    margin: 10px 28px 30px 40px;
+}
+
+.xs-main{
+	background: rgb(242,242,242);
+	color: #808080;
+}
+
+.xs-main p{
+	padding: 10px;
+}
+
+.xs-main a{
+	color: #808080;
+	font-size: 17px;
+}
+
+.xs-main a:hover{
+	color: #08c;
+}
+
+.xs-what{
+	background: white;
+	color: #636363;
+	font-size: 16px;
+}
+
+.xs-what h2 {
+    background: url(../images/guide-titlebg.png) no-repeat 0px 0px;
+    height: 70px;
+    width: 200px;
+}
+
+.xs-what h2 p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    background-color: rgb(27, 184, 226);
+}
+
+.xs-what-m{
+	background: url(../images/platform.png) no-repeat 0px 0px;
+	padding-left: 430px;
+	height: 320px;
+}
+
+.fristword {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.xs-why{
+	background: rgb(244,246,249);
+	color: #666;
+	font-size: 16px;
+}
+
+.xs-why h2{
+    background: url(../images/guide-titlebg.png) no-repeat 0 -97px;
+    height: 75px;
+    width: 200px;
+}
+
+.xs-why h2 p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    background-color: rgb(170, 188, 110);
+}
+
+.xs-why dt{
+	font-size: 24px;
+	color: #636363;
+}
+
+.xs-why-m1 dl{
+	width: 40%;
+	padding: 20px;
+	float: left;
+}
+
+.xs-why-m1 dd{
+	padding: 20px 0;
+}
+
+.xs-why-m1 img{
+	display: block;
+	float: right;
+	padding: 50px 110px;
+}
+
+.xs-why-m2 dl{
+	width: 40%;
+	padding: 20px;
+	float: right;
+}
+
+.xs-why-m2 dd{
+	padding: 20px 0;
+}
+
+.xs-why-m2 img{
+	display: block;
+	float: left;
+	padding: 0 20px;
+}
+
+.xs-relax{
+	background: white;
+}
+
+.xs-relax h2{
+    background: url(../images/guide-titlebg.png) no-repeat 0 -282px;
+    height: 75px;
+    width: 200px;
+}
+
+.xs-relax h2 p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    background-color: rgb(76,164,153);
+}
+
+.xs-relax-m img{
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+.xs-relax-t{
+	float: right;
+	width: 40%;
+	padding-right: 70px;
+}
+
+.xs-relax-t h3 {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.xs-relax-t ul li{
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.xs-relax-t p {
+    background: #2ea7e0;
+    width: 87px;
+    border-radius: 23px;
+	margin: 50px 0 0 20px;
+}
+
+.xs-relax-t a{
+	color: white;
+}
+
+.xs-relax-t a:hover{
+	color: white; 
+}
+
+.xs-intro{
+	background: rgb(244,246,249);
+	color: #666;
+	font-size: 16px;
+}
+
+.xs-intro h2{
+    background: url(../images/guide-titlebg.png) no-repeat 0 -370px;
+    height: 75px;
+    width: 200px;
+}
+
+.xs-intro h2 p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    background-color: rgb(251, 90, 0);
+}
+
+.xs-intro-t{
+	width: 40%;
+	float: left;
+	padding-left:20px; 
+}
+
+.xs-intro-m img{
+	display: block;
+	float: right;
+	padding-right: 45px;
+}
+
+.xs-intro-t dl{
+	padding: 0 0 20px 20px; 
+
+}
+
+.xs-intro-t dt{
+	font-size: 22px;
+	padding-bottom: 5px;
+}

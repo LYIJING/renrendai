@@ -1,7 +1,44 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+padding: 0;
+margin: 0;
+}
+table {
+border-collapse: collapse; 
+border-spacing: 0;
+}
+fieldset,img {
+border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-weight: normal;
+font-style: normal;
+}
+ol,ul {
+list-style: none;
+}
+caption,th {
+text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+}
+q:before,q:after {
+content:”;
+}
+abbr,acronym { border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
 #wrap {
 	margin: 0 auto;
 	background: white;
 	font-family: "微软雅黑", "YaHei", tahoma, arial, "Hiragino Sans GB", serif;
+	width: 100%;
 }
 
 .clear {
@@ -97,7 +134,7 @@ header div+div a:hover{
 }
 
 .intro-icon{
-	background: url(..\images\intro-icon.png);
+	background: url(../images/intro-icon.png);
 	background-repeat: no-repeat;
 	background-position: 0px top;
 	width: 126px;
@@ -122,9 +159,9 @@ header div+div a:hover{
 }
 
 .intro ul li a:hover .intro-icon{
-	background: url(..\images\intro-icon.png) #ccc;
+	background: url(../images/intro-icon.png);
 	background-repeat: no-repeat;
-	background-position: -10px -10px;
+	background-position: 0 bottom;
 	width: 126px;
 	height: 93px;
 }
@@ -198,9 +235,9 @@ header div+div a:hover{
 }
 
 .pic{
-	background: url(..\images\index-fixed.png) #E47E3A;
+	background: url(../images/index-fixed.png);
 	background-repeat: no-repeat;
-	background-position: -10px -10px;
+	background-position: 7px -197px;;
 	width: 100px;
 	height: 93px;
 	float: left;
@@ -404,11 +441,11 @@ address .ad span{
 	border-right: 1px solid #808080;
 }
 
-address div+div a{
-	display: block;
-    height: 50px;
-    width: 80px;
-    background: url(..\images\footer-icons.png) white no-repeat 0 0;
+address div+div a {
+    display: block;
+    height: 32px;
+    width: 91px;
+    background: url(../images/footer-icons.png) white no-repeat 0px -163px;
     float: left;
     margin-right: 58px;
     margin-bottom: 30px;
