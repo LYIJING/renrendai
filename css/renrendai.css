@@ -461,3 +461,79 @@ address div{
 	font-size: 22px;
 	padding-bottom: 5px;
 }
+
+.about-banner li{
+
+}
+
+.about{
+	background: rgb(242,242,242);
+	font-size: 15px;	
+}
+
+.about-m{
+	padding-top: 20px;
+}
+
+.about-m-l{
+	float: left;
+	margin-right: 20px;
+}
+
+.about-m-l a li{
+	padding:15px 30px;
+	margin: 2px;
+	background: rgb(236,236,236);
+	color: #545454;
+}
+
+.about-m-l a:hover li{
+	background: #2ea7e0;
+	color: white;
+}
+
+.about-m-r {
+	background: white;
+	color: #666;
+	font-size: 15px;
+	line-height: 30px;
+	float: left;
+	width: 80%;
+	padding: 20px;
+}
+
+.about-m-rt h2{
+	font-size: 22px;
+	color: #08c;
+	padding: 10px 0 10px 0; 
+}
+
+.about-m-intro{
+	margin-top: 20px;
+}
+
+.about-m-peo img{
+	display: block;
+	margin: 10px; 
+	float: left;
+	border: 1px solid rgb(242,242,242);
+}
+
+.about-m-peo dl{
+	float: left;
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.about-m-peo dl dt{
+	font-size: 18px;
+	color: #2ea7e0;
+	border-bottom: 1px solid #90d2f7;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.about-m-peo{
+	margin-bottom: 10px;
+	background: rgb(249,249,249);
+}
